@@ -1,74 +1,252 @@
-<!DOCTYPE html>
-<!-- Created with iSpring --><!-- 964 604 --><!--version 10.0.0.712 --><!--type html --><!--mainFolder ./ --><!--content book -->
-<!--
-Copyright 2012 Mozilla Foundation
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
-Adobe CMap resources are covered by their own copyright but the same license:
-
-    Copyright 1990-2015 Adobe Systems Incorporated.
-
-See https://github.com/adobe-type-tools/cmap-resources
--->
-<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
-	<meta name="format-detection" content="telephone=no"/>
-	<meta name="apple-mobile-web-app-capable" content="yes"/>
-	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-	<meta name="msapplication-tap-highlight" content="no"/>
-	<title>كلمات ومفردات صف أول تيرم أول</title>
-	<link rel="stylesheet" href="data/css/viewer.css"/>
-	<script src="data/js/viewer.js"></script>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Révisions</title>
+<style>
 	
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #141414;
+}
+
+* {
+	overflow-y: hidden;
+}
+
+:root {
+    --header: 600;
+    --color-other: #7d474e;
+    --font-bold: "Montserrat Bold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    --font: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+video, iframe {
+	margin-top: 5px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: #fff;
+}
+
+
+.card {	
+	margin: 10px;
+	background-color:#370505;
+	padding:2px 10px 10px 10px;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.option {
+		color: #fff;
+		background-color:#4E4A26;
+		padding:10px;
+		border-radius: 10px;
+		font-family:Montserrat;
+		cursor:pointer;
+		margin-bottom: 10px;
+		transition: 0.5s;
+
+}
+
+.option:hover {
+	transition: 0.5s;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card-header {	
+	font-family: Montserrat; color: #fff; font-size:20px;
+}
+
+@media screen and (max-width: 700px) {
+	.toolbar {
+    margin: 10px;
+    max-width: 100%;
+    background-color: #6200EE;
+    border-radius: 8px;
+    overflow: auto;
+  }
+
+  .toolbar-text {
+    text-align: left;
+    color: #fff;
+    font-family: var(--font);
+	font-weight: 600;
+	margin-left: 20px;
+}
+}
+
+
+@media screen and (min-width: 701px) {
+	.toolbar {
+    margin: 5px auto;
+    max-width: 40%;
+    text-align: center;
+    background-color: #6200EE;
+    border-radius: 8px;
+	overflow: auto;
 	
-	<script>
-		if (document.addEventListener) // IE9+
-		{
-			var book = "eNqFVN1q40YUfpVBsPTGMYntxBvfjaSxrY0sGUlOasoixvLEVqNoxMwoWTUOdOkGSl+j0MLelL3ou9i3fZIe/cTuLgm9kWa+Oec7/+dBU7FKmDbQdr/sPu2etn9uP6Pdr7un3cftl+1f1XX79+4j2v4O6Ce0/bz7bftl99TctZaW0RXz45+Y1AY/PGgSTnA4O+m0+ued9y1N0HRVIiet8/ePcJc0UWCNDDtmR++aeu8c904x/Pvdt+T4ZNjvm8en/T4Qr6m0eUSTSyZkzFNtoETOKnhKpbznYqkNrmkiAYtP3sL7g0bMEPsX4RT7/pXrmaFpYdsdhZZziW3LPOA21okNXgRrhrKGDLFUMcGW6J5KFKcRF4JFqo2mCaOSISUKRFc0Ttvg2it2nmlJyXQgVhzxjKVIrWOJFpzfDF6nmNrYIGPXNokHRPtAK3kDO0bFb9A0YkkN2i4G2epnOQcXbE6Xcbr65+c/ajH3AkD4tLSpHmLDIL5v6ZZtBfPQ8AgOQOTKCsYluWBUlWmI1RrFfiaABrE7muRUQRnQXVOOl5hmnkecAIIaEWCyUsmEgrAZSvPbBaSEX1e3KIfcpgqVrfMSz8gN3NAh3wdAMuJl/ioO9uF/VKYeufxKJRPsLua5/K+aaYa6615MsHcRjgmuE42XZbaQDsW5peJGviAb1P5craGSBc+/EwxBpkq1FlI0q+w966NFrhTkCtyort8G3W74R+6+YHTFa/DZoB8GWIeHb3wy8dzfKy1p0cBjd+Yd8HVjYGI5s4Ac8Nu6fcsX1wnGNe7DwzuatjdDtmhvJlS0NzgT5anYvMtTBp+k2OB81d74LFPtjQtjsXH4XXtjsqjhc9zQnQW25ZSFdyD7dJGwst4Rh2FIVeNmI9OEZnz1VnbN3tMpZAm9qSBnNtGJ96YW8ogBHWbPy9oQEwR/zKVCKb+vn2cOvsQWkNgk1LHjwGQ0dZvzHEUU2jdm99UQSsTTpKjbnKIrtkDQrdDc7deZrMAmTUVQli+SWK6bQeG5gmCvkziFpktosaDRDZJ5lnGhar458QPiQfX2IRZMwpqAEmqPsEUFV7BuhoLfGjwroKv2y+0aLkyUc1guzl7XHPa7x6dHZ2fHZ0emrutHnX7XPCJ9MsS93qmBz7tgMZbV4E7BFwuSvBLV8O45BdjmgvkKRv15sbK0rBmOIiZlvIiTWBUTvmSNzuO/d8YFqQ==";
+}
 
-			document.addEventListener("DOMContentLoaded", function() {
-				PdfViewer.checkMobileIntegration(book);
+.toolbar-text {
+    text-align: center;
+    color: #fff;
+    font-family: var(--font);
+    font-weight: 600;
+}
+}
 
-				var viewerInitCallback = function(viewer) {
-					
-				};
 
-				var startupApplication = function(initViewerState) {
-					var fileOpenParams = {"type":"fileName","filePath":"data\/book.pdf"};
-					PdfViewer.open(fileOpenParams, document.body, book, viewerInitCallback, initViewerState);
-				};
+.backdrop {
+    background-color: #2d323c;
+	height: calc(100vh - 75px);
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 5px;
+	padding: 10px;   	
+    overflow-y: auto;
+    overflow-x:hidden; 
+}
 
-				(function(startupFunc) {
-					if (startupFunc)
-					{
-						startupFunc(startupApplication);
-					}
-					else
-					{
-						startupApplication();
-					}
-				})();
-			});
-		}
-		else
-		{
-			location.replace("data/html5-unsupported.html");
-		}
-	</script>
+* {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+}
+
+*::-webkit-scrollbar {
+    width: 30px;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: green;
+    background-clip: content-box;
+    border-radius: 20px;
+    border: 10px solid transparent;
+    /* change border color to blue to match the background */
+  }
+
+
+.auto-style1 {
+	text-align: left;
+}
+
+
+.auto-style2 {
+	color: #F30909;
+}
+.auto-style3 {
+	color: #FFFF00;
+}
+
+
+
+.auto-style4 {
+	text-decoration: underline;
+}
+
+audio {
+    margin: 10px;
+}
+
+.img-group-start {
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   width: 100%;
+   background-color: #fff;
+
+}
+
+.img-group-item {
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: #fff;
+}
+
+.img-group-end {
+    border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   background-color: #fff;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+   width: 100%;
+}
+
+.img-plain {
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: #fff;
+}
+
+
+
+
+</style>
 </head>
-<body></body>
+
+<body>
+
+	<div class="toolbar">
+		<p class="toolbar-text">Révisions: vocabulaire première année premier semestre</p>
+	</div>
+
+
+	<div class="backdrop">
+
+        <div class="card">
+
+            <h1 class="card-header">Table of contents</h1>
+            
+             <div class="option" onclick="selectAndGo('#1')">
+             Le club de ma classe
+             </div>
+             
+              <div class="option" onclick="selectAndGo('#2')">
+              Le club des artistes
+             </div>
+                       
+             
+            </div>
+
+        <img src="assets/1.svg" class="img-group-start" id="1">
+        
+        <img src="assets/2.svg" class="img-group-item"  >
+
+        <img src="assets/3.svg" class="img-group-item">
+
+        <img src="assets/4.svg" class="img-group-item"id="2">
+
+        <img src="assets/5.svg" class="img-group-item">
+
+        <img src="assets/6.svg" class="img-group-item">
+
+        <img src="assets/7.svg" class="img-group-item">
+
+        <img src="assets/8.svg" class="img-group-item">
+
+        <img src="assets/9.svg" class="img-group-item">
+
+                      
+</div>
+
+<script>
+
+function selectAndGo(urlString) {
+  window.location.href=urlString;
+}
+</script>
+
+</body>
+
 </html>
